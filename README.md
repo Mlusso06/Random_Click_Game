@@ -1,7 +1,9 @@
 # WodClick Game
-Let's the user find some latest news articles to save and comment on them.
+Let's the user have some fun and click some Well known work out from Cross fit.
 
-The NewsScraper Applicaton is a demo of the ability to utilize :add more descirption later. 
+Don't click on the same work out more than once, after the images schuffle, can your remember the all the WODS you have clicked on?.
+
+Try to beat your top score
 
 ### [Wod Click Game]( https://reasonwithme.herokuapp.com/)
 
@@ -15,8 +17,6 @@ These instructions will get you a copy of the project [WodClickGame](https://git
 
 What things you need: 
 * code editing [Visual Studio](https://visualstudio.microsoft.com/)
-* work bench ui [robo3t](https://robomongo.org/)
-
 
 ```
 Open your Code editing software (example Visual Studio)
@@ -38,64 +38,52 @@ See below on how to perfom the install.
 npm i
 ```
 You will be installing the following npm packagages:
-* express
-* express-handlebars
-* mongoose
-* cheerio
-* axios 
+* react
+* react-dom
+* react-scripts
 
+## Available Scripts
 
-Next open MySQL and create a new "connection"
-* create a user name
-* set up a pass word
+In the project directory, you can run:
 
-Now you will create your own .env file in the root folder and enter the following info.
+### `yarn start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+you should see the below when it starts
 ```
-DBhost = "localhost"
-DBuser = "root" or your username
-DBPass = "root" or your pass word chosen
+Compiled successfully!
 
-```
-Now go into the (/models/schema.sql) and (seeds.sql) files and copy the information and enter into your workbench.
-Be sure to run the code to create your DB (data base) and Tables.  Then on the seeds file, run that code to create the usable information.
+You can now view clickgame in the browser.
 
-## Running the server
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.111:3000
 
-Now you will want to run the web site locally.
-
-### Right Click your server.js file and OPEN in Terminal
-
-This will open your terminal in your "Root" folder and allow you to run the server "you may have done this already to get your  "npm i " completed
-
-```
-node server.js
+Note that the development build is not optimized.
+To create a production build, use yarn build.
 ```
 
-### You should now see the serving running
-
-click on the link to open your webbrowser "local host"
-
-```
-Server listening on: http://localhost:8080
-```
 
 # Project work
 
 ## Deployment
 
 We deployed with [Heroku](https://dashboard.heroku.com/apps)
-using the the app [mLab](https://reasonwithme.herokuapp.com/)
+
 
 #### read individual instructions for more detal
 
 ## The Web site was Built With
 
-* [Handlebars](https://handlebarsjs.com/) - The web framework used
-* [Font Awesome](https://fontawesome.com/) - Icon and font
-* [Node.js](https://nodejs.org/en/) - javascript, orm, connection and server.js files
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## Project Team:
