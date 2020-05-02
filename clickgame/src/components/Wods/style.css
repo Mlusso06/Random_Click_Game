@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url'(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fstock-photo%2Fgym_background.html&psig=AOvVaw0-5y8N7u3F0MmF0oV_h_wc&ust=1588480574257000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDZqrWtlOkCFQAAAAAdAAAAABAD)';
+    font-family: 'Bangers';font-size: 22px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .square {
+    height: 200px;
+    width: 200px;
+  }
+  

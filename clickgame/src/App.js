@@ -1,10 +1,10 @@
-import React, { Componet } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import wodCard from "./wodCard.json";
 import Wods from "./components/Wods";
 import Navigation from "./components/Navigation";
 
-class App extends Componet {
+class App extends Component {
     state = {
         result: "",
         beenClicked: [],
@@ -78,7 +78,7 @@ class App extends Componet {
               // take the info from the navigation 
                 result={this.state.result}
                 score={this.state.score}
-                topScore={this.state.topScore}
+                topscore={this.state.topscore}
               />
       
               <div className="container">
@@ -101,7 +101,7 @@ class App extends Componet {
                       image={wodify.image}
                       handleclick={this.handleclick}
                     />
-                  ))};
+                  ))}
                 </div>
               </div>
       
