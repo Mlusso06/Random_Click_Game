@@ -52,7 +52,7 @@ class App extends Component {
             this.shuffleArray(this.state.wodify);
         }
         else {
-            if (this.state.score === (this.state.allWods -1)){
+            if (this.state.score === (this.state.allWods - 1)) {
                 this.setState({
                     result: "All right you Win, get your x-fit On!",
                     score: 0,
@@ -64,49 +64,50 @@ class App extends Component {
             this.setState({
                 result: "Working Hard, Pick another Wod!",
                 // increase the score by 1 as the user picks correct
-                score: this.state.setState + 1,
+                score: this.state.score + 1,
                 beenClicked: [...this.state.beenClicked, id]
             })
             this.shuffleArray(this.state.wodify);
+            console.log(this.state.score);
         }
     }
-// time to take this to the page
+    // time to take this to the page
     render() {
-        return(
+        return (
             <>
-              <Navigation
-              // take the info from the navigation 
-                result={this.state.result}
-                score={this.state.score}
-                topscore={this.state.topscore}
-              />
-      
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12">
-                    <header>
-                      <p> {this.state.name}
-                      </p>
-                      <h1>{wodCard[0].name}</h1>
-                    </header>
-                  </div>
+                <Navigation
+                    // put this info into the navigation bar
+                    result={this.state.result}
+                    score={this.state.score}
+                    topscore={this.state.topscore}
+                />
+
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <header>
+                                <p> {this.state.name}
+                                </p>
+                                <h1>{wodCard[0].name}</h1>
+                            </header>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        {this.state.wodify.map(wodify => (
+                            <Wods
+                                // pull the info from wods js
+                                id={wodify.id}
+                                key={wodify.id}
+                                image={wodify.image}
+                                handleclick={this.handleclick}
+                            />
+                        ))}
+                    </div>
                 </div>
-      
-                <div className="row">
-                  {this.state.wodify.map(wodify => (
-                    <Wods
-                    // pull the info from wods js
-                      id={wodify.id}
-                      key={wodify.id}
-                      image={wodify.image}
-                      handleclick={this.handleclick}
-                    />
-                  ))}
-                </div>
-              </div>
-      
+
             </>
-          )
-        }
-      }
+        )
+    }
+}
 export default App;

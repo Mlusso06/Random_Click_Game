@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: url'(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fstock-photo%2Fgym_background.html&psig=AOvVaw0-5y8N7u3F0MmF0oV_h_wc&ust=1588480574257000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDZqrWtlOkCFQAAAAAdAAAAABAD)';
+    background: url("/clickgame/motivation.jpg");
+    background-color: grey;
     font-family: 'Bangers';font-size: 22px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,7 +14,8 @@ body {
   }
   
   .square {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    border: 3px solid black
   }
   
