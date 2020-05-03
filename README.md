@@ -5,9 +5,9 @@ Don't click on the same work out more than once, after the images schuffle, can 
 
 Try to beat your top score
 
-### [Wod Click Game]( https://reasonwithme.herokuapp.com/)
+### [Wod Click Game]( https://mlusso06.github.io/Random_Click_Game/)
 
-![WodClick](./clickgame/readmeImage.jpg)
+![WodClick](./readmeImage.jpg)
 
 ## Getting Started
 
