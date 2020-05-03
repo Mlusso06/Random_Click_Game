@@ -5,7 +5,7 @@ Don't click on the same work out more than once, after the images schuffle, can 
 
 Try to beat your top score
 
-### [Wod Click Game]( https://mlusso06.github.io/Random_Click_Game/)
+### [Wod Click Game]( https://wodclickgame.herokuapp.com/)
 
 ![WodClick](./readmeImage.jpg)
 
@@ -77,9 +77,9 @@ We deployed with [Heroku](https://dashboard.heroku.com/apps)
 
 #### read individual instructions for more detal
 
-## The Web site was Built With
+# The Web site was Built With
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
